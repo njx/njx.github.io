@@ -63,11 +63,11 @@ header {
     box-shadow: 0 0 5px rgba(26, 19, 18, 0.3);
 }
 .stripe:nth-child(even) h3, .stripe:nth-child(even) a {
-    color: #e8bcb9;
+    color: #e6b8b5;
     text-shadow: 0 1px 2px rgba(26, 19, 18, 0.5);
 }
 .stripe:nth-child(even) p {
-    color: #e4bebc;    
+    color: #eccecd;    
 }
 .stripe:nth-child(even) p.date {
     color: #ddadab;    
