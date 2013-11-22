@@ -1,0 +1,94 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: source-sans-pro;
+}
+body {
+    font-size: 1.1em;
+}
+
+header {
+    background: url(http://placekitten.com/1000/600) 50% 50% no-repeat;
+    background-size: cover;
+    height: 10em;
+}
+
+@media only screen and (min-width: 40.063em) {
+    header {
+        height: 20em;
+    }
+}
+
+.title, .subtitle {
+    line-height: 1em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+.title {
+    color: #fff;
+    line-height: 1em;
+    margin-bottom: 0;
+}
+.subtitle {
+    margin-top: 0;
+    color: #ddd;
+}
+
+.stripe {
+    padding: 1em 0;
+}
+
+.stripe:nth-child(odd) {
+    background: #b3726f;
+}
+.stripe:nth-child(odd) img {
+    box-shadow: 0 0 5px rgba(26, 19, 18, 0.3);
+}
+.stripe:nth-child(odd) h3, .stripe:nth-child(odd) a {
+    color: #ecaeaa;
+    text-shadow: 0 1px 2px rgba(26, 19, 18, 0.5);
+}
+.stripe:nth-child(odd) p {
+    color: #ffd4d2;    
+}
+.stripe:nth-child(odd) p.date {
+    color: #d9a4a2;    
+}
+.stripe:nth-child(odd) a:hover {
+    color: #f2a6a3;  
+    text-shadow: 0 1px 2px rgba(26, 19, 18, 0.5);
+}
+
+.stripe:nth-child(even) {
+    background: #6ab386;
+}
+.stripe:nth-child(even) img {
+    box-shadow: 0 0 5px rgba(32, 45, 37, 0.3);
+}
+.stripe:nth-child(even) h3, .stripe:nth-child(even) a {
+    color: #aaecc3;
+    text-shadow: 0 1px 2px rgba(32, 45, 37, 0.5);
+}
+.stripe:nth-child(even) p {
+    color: #cbffdf;    
+}
+.stripe:nth-child(even) p.date {
+    color: #8cd9a9;    
+}
+.stripe:nth-child(even) a:hover {
+    color: #75eca2;  
+    text-shadow: 0 1px 2px rgba(32, 45, 37, 0.5);
+}
+
+.stripe h3 {
+    margin-bottom: 0;
+    line-height: 1em;
+}
+.date {
+    margin-top: 0;
+    font-size: 0.8em;
+}
+
+footer {
+    padding: 1em 0 0;
+    background: #333;
+    color: #999;
+    text-align: center;
+}
