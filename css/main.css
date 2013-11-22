@@ -32,49 +32,49 @@ header {
 }
 
 .stripe {
-    padding: 2em 0 1em;
-}
-
-.stripe:nth-child(even) {
-    background: #b3726f;
-}
-.stripe:nth-child(even) img {
-    box-shadow: 0 0 5px rgba(26, 19, 18, 0.3);
-}
-.stripe:nth-child(even) h3, .stripe:nth-child(even) a {
-    color: #ecaeaa;
-    text-shadow: 0 1px 2px rgba(26, 19, 18, 0.5);
-}
-.stripe:nth-child(even) p {
-    color: #ffd4d2;    
-}
-.stripe:nth-child(even) p.date {
-    color: #d9a4a2;    
-}
-.stripe:nth-child(even) a:hover {
-    color: #f2a6a3;  
-    text-shadow: 0 1px 2px rgba(26, 19, 18, 0.5);
+    padding: 1.5em 0 0.6em;
 }
 
 .stripe:nth-child(odd) {
-    background: #6ab386;
+    background: #83a08e;
 }
 .stripe:nth-child(odd) img {
     box-shadow: 0 0 5px rgba(32, 45, 37, 0.3);
 }
 .stripe:nth-child(odd) h3, .stripe:nth-child(odd) a {
-    color: #aaecc3;
+    color: #bcecce;
     text-shadow: 0 1px 2px rgba(32, 45, 37, 0.5);
 }
 .stripe:nth-child(odd) p {
-    color: #cbffdf;    
+    color: #cae8d5;    
 }
 .stripe:nth-child(odd) p.date {
-    color: #8cd9a9;    
+    color: #add9bd;    
 }
 .stripe:nth-child(odd) a:hover {
-    color: #75eca2;  
+    color: #9cd9b3;  
     text-shadow: 0 1px 2px rgba(32, 45, 37, 0.5);
+}
+
+.stripe:nth-child(even) {
+    background: #a07d7b;
+}
+.stripe:nth-child(even) img {
+    box-shadow: 0 0 5px rgba(26, 19, 18, 0.3);
+}
+.stripe:nth-child(even) h3, .stripe:nth-child(even) a {
+    color: #e8bcb9;
+    text-shadow: 0 1px 2px rgba(26, 19, 18, 0.5);
+}
+.stripe:nth-child(even) p {
+    color: #e4bebc;    
+}
+.stripe:nth-child(even) p.date {
+    color: #ddadab;    
+}
+.stripe:nth-child(even) a:hover {
+    color: #f2a6a3;  
+    text-shadow: 0 1px 2px rgba(26, 19, 18, 0.5);
 }
 
 .stripe h3 {
