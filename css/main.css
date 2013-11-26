@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: url(http://placekitten.com/1000/600) 50% 50% no-repeat;
+    background: url(http://lorempixel.com/1000/600) 50% 50% no-repeat;
     background-size: cover;
     height: 10em;
 }
@@ -35,7 +35,7 @@ header {
     color: #fff;
 }
 .title a:hover {
-    color: #eee;
+    color: #ddd;
 }
 .subtitle {
     margin-top: 0;
