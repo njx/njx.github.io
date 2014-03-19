@@ -3,27 +3,27 @@ html, body {
 }
 
 body, h1, h2, h3, h4, h5, h6 {
-    font-family: source-sans-pro;
+    font-family: source-sans-pro, "Helvetica Neue", Arial, sans-serif;
 }
 body {
-    font-size: 1.1em;
     -webkit-font-smoothing: antialiased;
 }
 
 header {
-    background: url(http://lorempixel.com/1000/600) 50% 50% no-repeat;
+    background: url(../img/cover.jpg) 50% 50% no-repeat;
     background-size: cover;
     height: 10em;
 }
 
 @media only screen and (min-width: 40.063em) {
     header {
-        height: 20em;
+        height: 15em;
     }
 }
 
 .title, .subtitle {
     line-height: 1em;
+    font-weight: bold;
 }
 .title {
     color: #fff;
