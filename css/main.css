@@ -1,5 +1,6 @@
 html, body {
-    background: #333;
+    background: #83a08e;
+    color: #dbf7e6;
 }
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -22,12 +23,11 @@ header {
 }
 
 .title, .subtitle {
-    line-height: 1em;
     font-weight: bold;
 }
 .title {
-    color: #fff;
     line-height: 1em;
+    color: #fff;
     margin-bottom: 0;
     text-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
 }
@@ -43,94 +43,27 @@ header {
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 }
 
-.item {
+.main li {
     padding-top: 1.5em;
     padding-bottom: 0.6em;
 }
-.stripe h3 {
-    margin-bottom: 0;
+.main li img {
+    margin-top: 0.6em;
+}
+.main li h3 {
     line-height: 1em;
 }
-.stripe h3, .stripe a {
+.main li a {
     font-weight: bold;
-    text-shadow: 0 1px 2px rgba(32, 45, 37, 0.5);
+    color: #dbf7e6;
+    text-shadow: 0 1px 1px rgba(83, 95, 86, 0.9);
 }
-.stripe img {
-    box-shadow: 0 0 5px rgba(42, 42, 42, 0.3);
-}
-
-@media only screen and (max-width: 40em) {
-    .stripe:nth-child(odd) .item:nth-child(odd), .stripe:nth-child(even) .item:nth-child(even) {
-        background: #83a08e;
-    }
-    .stripe:nth-child(odd) .item:nth-child(odd) h3, .stripe:nth-child(even) .item:nth-child(even) h3, 
-    .stripe:nth-child(odd) .item:nth-child(odd) a, .stripe:nth-child(even) .item:nth-child(even) a {
-        color: #dbf7e6;
-    }
-    .stripe:nth-child(odd) .item:nth-child(odd) p, .stripe:nth-child(even) .item:nth-child(even) p {
-        color: #dbf7e6;    
-    }
-    .stripe:nth-child(odd) .item:nth-child(odd) p.date, .stripe:nth-child(even) .item:nth-child(even) p.date {
-        color: #add9bd;    
-    }
-    .stripe:nth-child(odd) .item:nth-child(odd) a:hover, .stripe:nth-child(even) .item:nth-child(even) a:hover {
-        color: #acf0c6;  
-    }
-    
-    .stripe:nth-child(odd) .item:nth-child(even), .stripe:nth-child(even) .item:nth-child(odd) {
-        background: #a07d7b;
-    }
-    .stripe:nth-child(odd) .item:nth-child(even) h3, .stripe:nth-child(even) .item:nth-child(odd) h3,
-    .stripe:nth-child(odd) .item:nth-child(even) a, .stripe:nth-child(even) .item:nth-child(odd) a {
-        color: #f5d6d3;
-    }
-    .stripe:nth-child(odd) .item:nth-child(even) p, .stripe:nth-child(even) .item:nth-child(odd) p {
-        color: #f5d6d3;    
-    }
-    .stripe:nth-child(odd) .item:nth-child(even) p.date, .stripe:nth-child(even) .item:nth-child(odd) p.date {
-        color: #ddadab;    
-    }
-    .stripe:nth-child(odd) .item:nth-child(even) a:hover, .stripe:nth-child(even) .item:nth-child(odd) a:hover {
-        color: #f2b0ae;  
-    }
-}
-
-@media only screen and (min-width: 40.063em) {
-    .stripe:nth-child(odd) {
-        background: #83a08e;
-    }
-    .stripe:nth-child(odd) h3, .stripe:nth-child(odd) a {
-        color: #dbf7e6;
-    }
-    .stripe:nth-child(odd) p {
-        color: #dbf7e6;    
-    }
-    .stripe:nth-child(odd) p.date {
-        color: #add9bd;    
-    }
-    .stripe:nth-child(odd) a:hover {
-        color: #acf0c6;  
-    }
-    
-    .stripe:nth-child(even) {
-        background: #a07d7b;
-    }
-    .stripe:nth-child(even) h3, .stripe:nth-child(even) a {
-        color: #f5d6d3;
-    }
-    .stripe:nth-child(even) p {
-        color: #f5d6d3;    
-    }
-    .stripe:nth-child(even) p.date {
-        color: #ddadab;    
-    }
-    .stripe:nth-child(even) a:hover {
-        color: #f2b0ae;  
-    }
+.main li a:hover {
+    color: #acf0c6;
 }
 
 .date {
-    margin-top: 0;
+    padding-top: 0.2em;
     font-size: 0.8em;
 }
 
